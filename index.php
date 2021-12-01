@@ -24,20 +24,19 @@
     <header class="mdl-layout__header" id="header">
       <div class="mdl-layout__header-row">
         <!-- Title -->
-        <span class="mdl-layout-title">Control General de Rutinas</span>
+        <span class="mdl-layout-title">Div. COMUNICACIONES TRONCALIZADAS-Control General de Rutinas</span>
       </div>
       <!-- Tabs -->
       <div class="mdl-layout__tab-bar mdl-js-ripple-effect">
         <a href="#scroll-tab-1" class="mdl-layout__tab">Control de Herramientas</a>
-        <a href="#scroll-tab-2" class="mdl-layout__tab">Valija de Herramientas</a>
-        <a href="#scroll-tab-3" class="mdl-layout__tab">Zonewatch</a>
-        <a href="#scroll-tab-4" class="mdl-layout__tab">Rutina Control de Sistemas</a>
-        <a href="#scroll-tab-5" class="mdl-layout__tab">Master Site</a>
+        <a href="#scroll-tab-2" class="mdl-layout__tab">Valija de Herramientas A</a>
+        <a href="#scroll-tab-3" class="mdl-layout__tab">Valija de Herramientas B</a>
+        <a href="#scroll-tab-4" class="mdl-layout__tab">Zonewatch</a>
+        <a href="#scroll-tab-5" class="mdl-layout__tab">Rutina Control de Sistemas</a>
+        <a href="#scroll-tab-6" class="mdl-layout__tab">Master Site</a>
       </div>
     </header>
-    <div class="mdl-layout__drawer" id="lateral">
-      <span class="mdl-layout-title1">CDS</span>
-    </div>
+     
     <main class="mdl-layout__content">
       <section class="mdl-layout__tab-panel is-active" id="scroll-tab-1">
         <div class="page-content">
@@ -46,7 +45,7 @@
           ?>
           <form action="pdf.php" method="post">
             <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" type="submit" id="pdf" >
-             PDF
+             Descargar PDF
             </button>
           </form>
 
@@ -54,24 +53,66 @@
       </section>
       <section class="mdl-layout__tab-panel" id="scroll-tab-2">
         <div class="page-content">
-          <!-- Your content goes here -->
+        <?php
+          include "valija A.html";
+          ?>
+          <form action="pdf.php" method="post">
+            <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" type="submit" id="pdf" >
+             Descargar PDF
+            </button>
+          </form>
+
         </div>
       </section>
       <section class="mdl-layout__tab-panel" id="scroll-tab-3">
         <div class="page-content">
-          <!-- Your content goes here -->
+          <?php
+          include "valija B.html";
+          ?>
+          <form action="pdf.php" method="post">
+            <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" type="submit" id="pdf" >
+             Descargar PDF
+            </button>
+          </form>
+
         </div>
       </section>
       <section class="mdl-layout__tab-panel" id="scroll-tab-4">
         <div class="page-content">
-          <!-- Your content goes here -->
+        <?php
+          include "zonewatch.html";
+          ?>
+          <form action="pdf.php" method="post">
+            <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" type="submit" id="pdf" >
+             Descargar PDF
+            </button>
+          </form>
+
         </div>
       </section>
       <section class="mdl-layout__tab-panel" id="scroll-tab-5">
         <div class="page-content">
-          <!-- Your content goes here -->
+        <?php
+          include "sistemas.html";
+          ?>
+          <form action="pdf.php" method="post">
+            <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" type="submit" id="pdf" >
+             Descargar PDF
+            </button>
+          </form>
         </div>
-      
+        </section>
+      <section class="mdl-layout__tab-panel" id="scroll-tab-6">
+        <div class="page-content">
+        <?php
+          include "mastersite.html";
+          ?>
+          <form action="pdf.php" method="post">
+            <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" type="submit" id="pdf" >
+             Descargar PDF
+            </button>
+          </form>
+        </div>
     </main>
   </div>
   <script type="text/javascript" src="./script.js">

@@ -4,18 +4,66 @@
     box-sizing: border-box;
 }
 
-.mdl-button{
-    border-radius: 10px;
+body{
+    background-color: ghostwhite
 }
+
+.mdl-button{
+    border-radius: 50px;
+}
+
+
 
 #listado{
     display: flex;
-    justify-content:space-around;
+    justify-content: start;
     margin-bottom: 15px;
     margin-top: 30px;
-    
 }
-#titulo{
-    text-decoration-style: solid;
-    text-shadow: rgb(3, 44, 105) 5px 3px 1px;
+
+.master{
+    text-align:center;
+    margin-top: 20px;
+    box-sizing: border-box 10px;
+    border-radius: 20px;
+    border:solid rgb(0, 0, 0);
+    width: 180px;
+    height: 100px;
 }
+
+
+.master2{
+    text-align: center;
+    margin-top: 20px;
+    box-sizing: border-box 10px;
+    border-radius: 20px;
+    border:solid rgb(0, 0, 0);
+    width: 400px;
+    height: 70px;
+}
+
+.linea{
+
+    border: 1px solid #000;
+}
+
+h4{
+    margin-left: 50px;
+}
+
+.formulario{
+    margin-bottom: 15px;
+    margin-top: 10px;
+    margin-left: 50px;
+}
+
+.reset{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    margin-left: 50px;
+}
+
+
+
+

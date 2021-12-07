@@ -1,3 +1,5 @@
+
+
 let listado = ["escuadra magnetica", "tijera hojalata", "alargue taller (8)" ]
 
 let listadoRef = document.getElementById("listado");

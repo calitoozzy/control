@@ -14,7 +14,7 @@
   <!-- Material Design icon font -->
   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
   <link href="mypdf.css" type="text/css" rel="stylesheet" media="mpdf" />
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="css/style.css">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css">
 
 </head>
@@ -117,9 +117,7 @@
         </div>
     </main>
   </div>
-  <script type="text/javascript" src="./script.js">
-
-  </script>
+  
 </body>
 
 </html>

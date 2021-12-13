@@ -13,7 +13,10 @@ body{
     border-radius: 50px;
 }
 
-
+.container{
+    display: flex;
+    justify-content:center;
+}
 
 #listado{
     display: flex;

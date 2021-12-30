@@ -4,7 +4,6 @@
 <!DOCTYPE html>
 <html lang="es">
 
-
 <!-- Material Design Lite -->
 
 <head>
@@ -16,6 +15,9 @@
   <link href="mypdf.css" type="text/css" rel="stylesheet" media="mpdf" />
   <link rel="stylesheet" href="css/style.css">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css" 
+  integrity="sha512-oHDEc8Xed4hiW6CxD7qjbnI+B07vDdX7hEPTvn9pSZO1bcRqHp8mj9pyr+8RVC2GmtEfI2Bi9Ke9Ass0as+zpg==" 
+  crossorigin="anonymous" referrerpolicy="no-referrer" />
 
 </head>
 
@@ -117,7 +119,7 @@
         </div>
     </main>
   </div>
-  
+
 </body>
 
 </html>

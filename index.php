@@ -32,7 +32,7 @@
       </div>
       <!-- Tabs -->
       <div class="mdl-layout__tab-bar mdl-js-ripple-effect">
-        <a href="#scroll-tab-1" class="mdl-layout__tab">Control de Herramientas</a>
+        <a href="#scroll-tab-1" class="mdl-layout__tab">Control de Herramientas Pañol</a>
         <a href="#scroll-tab-2" class="mdl-layout__tab">Valija de Herramientas A</a>
         <a href="#scroll-tab-3" class="mdl-layout__tab">Valija de Herramientas B</a>
         <a href="#scroll-tab-4" class="mdl-layout__tab">Zonewatch</a>
